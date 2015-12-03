@@ -7,6 +7,7 @@ This is a parent project consists of following:
 2. spring-boot-mvc-legacy
 3. spring-boot-mvc-modern
 
+
 1. content-services
 	This is the host service responsible for managing content for different applications. This services talks to couchbase for persistence using spring jpa data. Service can emit data in 2 forms, example.json and example.properties
 	
