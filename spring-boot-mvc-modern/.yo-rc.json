@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "mycms",
+    "packageName": "com.mycms.client",
+    "packageFolder": "com/mycms/client",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "64e8230a1fe0cc8381325ddfe144cf91e2b690e4",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
